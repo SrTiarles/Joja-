@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    background-image: url(https://stardewvalleywiki.com/mediawiki/images/6/66/JojaMart_Interior_PT.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+ h2 {
+    padding-left: 10px;
+    margin: auto;
+    display: flex;
+    text-align: left;
+    width: 900px;
+    height: auto;
+ }
+
+.panel {
+    padding-bottom: 10%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    position: initial;
+    width: 900px;
+    height: 600px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    background-image: url(https://i.pinimg.com/236x/fe/b3/b5/feb3b5dfbc333c58a88543c8b6a8529e.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+.left-panel {
+    width: 50%;
+    background: linear-gradient(135deg, #1E90FF 0%, #4169E1 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem {
+    width: 80%;
+}
+
+
+.right-panel {
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #242424;
+}
